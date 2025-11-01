@@ -1,0 +1,17 @@
+# Variables de entorno
+
+.env
+
+# Archivos y carpetas temporales
+
+__pycache__/
+*.pyc
+
+# Datos
+
+data/chunks/
+data/indexes/
+
+# Configuración
+.vscode/
+
