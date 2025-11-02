@@ -74,3 +74,14 @@ if __name__ == "__main__":
 
         print(f"Chunk {i}:\n{chunks}\n")
 
+
+
+"""
+1- Carga los archivos .parquet con los chunks y el índice FAISS creado previamente.
+
+2- Obtiene los embeddings de la consulta.
+
+3- Busca los chunks más similares en el índice FAISS, los top k.
+
+4- Prueba con una consulta de ejemplo y muestra los chunks más similares encontrados.
+"""
