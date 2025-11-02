@@ -97,7 +97,7 @@ if __name__ == "__main__":
 
     while True:
 
-        query = input("Escribe la consulta (o 'salir' para terminar): ")
+        query = input("Escribe la consulta ('salir' para terminar): ")
         
         if query.lower() in ["salir", "exit"]:
 
@@ -106,6 +106,6 @@ if __name__ == "__main__":
         respuesta = generar_respuesta_rag(query)
 
         print("\nRespuesta RAG:\n", respuesta)
-        print("-" * 30)
+        print("--" * 30)
 
 
