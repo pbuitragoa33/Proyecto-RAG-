@@ -107,5 +107,3 @@ if __name__ == "__main__":
 
         print("\nRespuesta RAG:\n", respuesta)
         print("--" * 30)
-
-
