@@ -27,10 +27,23 @@ client = AzureOpenAI(api_key = AZURE_API_KEY,
 )
 
 
-# Cargar el iindice FAISS y el DataFrame de los chunks
+# Cargar el iindice FAISS y el DataFrame de los chunks (Original)
 
 chunks_df = pd.read_parquet("Datos/Chunks/chunks.parquet")
 index = faiss.read_index("Datos/Indices/index.faiss")
+
+
+# Cargar el índice FAISS y el DataFrame de los chunks (RAG Base)
+
+#chunks_df = pd.read_parquet("Modelos/Datos_Modelos/Chunks/chunks_rag_base.parquet")
+#index = faiss.read_index("Modelos/Datos_Modelos/Indices/index_rag_base.faiss")
+
+# Cargar el índice FAISS y el DataFrame de los chunks (RAG Overlap)
+
+#chunks_df = pd.read_parquet("Modelos/Datos_Modelos/Chunks/chunks_con_overlapping.parquet")
+#index = faiss.read_index("Modelos/Datos_Modelos/Indices/index_con_overlapping.faiss")
+
+
 
 # Conjunto de consultas o queries que se vann a evaluar con su respuesta esperada
 
@@ -110,7 +123,6 @@ print("Recall@5:", recall_at_k(queries_evaluacion, index, chunks_df))
 
 if __name__ == "__main__":
     
-    print("Evaluando desempeño del RAG...")
     recall5 = recall_at_k(queries_evaluacion, index, chunks_df, k = 5)
     print(f"\nRecall@5: {recall5:.2f}")
 

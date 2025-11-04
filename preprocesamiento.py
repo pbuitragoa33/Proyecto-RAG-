@@ -182,6 +182,7 @@ def main():
     print("Índice FAISS creado en Datos/Indices/index.faiss")
 
 if __name__ == "__main__":
+    
     main()
 
 
