@@ -65,7 +65,7 @@ def buscar_chunks_similares(query: str, k: int = 5):
 
 if __name__ == "__main__":
 
-    consulta = input("Ingrese su consulta: ")
+    consulta = input("Ingrese la consulta: ")
     top_chunks = buscar_chunks_similares(consulta, k = 5)
 
     print("\nChunks más similares encontrados:\n")
