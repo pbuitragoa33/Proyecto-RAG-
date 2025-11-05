@@ -61,7 +61,7 @@ Archivos generados por los scripts :
 - `Datos/Chunks/*.parquet` — chunks serializados con su embedding 
 - `Datos/Indices/*.faiss` — índices FAISS generados 
 
-## 3) Cómo ejecutar los flujos (pasos típicos)
+## 3) Cómo ejecutar los flujos 
 
 1. Generar chunks y crear índice FAISS (ejemplo base):
 
@@ -100,7 +100,7 @@ Resultados de ejecución (resumen de métricas):
  ![Resultados](./Resultados_resumen.png)
 
 
-## 6) ¿Que más se podría hacer luego?
+## 5) ¿Que más se podría hacer luego?
 
 - Guardar resultados de evaluación (ya sea en CSV o JSON) y tenerw  curvas con distintos parámetros (k, pesos MMR) para análisis posterior.
 - Añadir soporte opcional para usar embeddings locales o modelos distintos a AzureOpenAI.
