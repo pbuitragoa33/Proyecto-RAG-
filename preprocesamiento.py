@@ -184,20 +184,3 @@ def main():
 if __name__ == "__main__":
     
     main()
-
-
-
-
-"""
-1- Recolecta PDFs y TXT de Datos/Documentos.
-
-2- Extrae el texto de cada archivo.
-
-3- Hace chunking con tamaño fijo y overlapping.
-
-4- Genera embeddings usando AzureOpenAI.
-
-5- Guarda todos los chunks + embeddings en data/chunks/chunks.parquet.
-
-6- Crea un índice FAISS en data/indexes/index.faiss listo para usar en el pipeline RAG.
-"""
