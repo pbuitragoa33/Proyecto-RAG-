@@ -1,0 +1,43 @@
+Consulta: "Main reasons why the labor market gets weakened"
+
+Respuesta RAG:
+
+"
+Las principales razones por las cuales el mercado laboral se ve debilitado, según la información extraída de los documentos, son las siguientes:
+
+1. **Crecimiento débil de la demanda laboral**: La demanda de trabajo no está creciendo lo 
+suficiente para mantenerse al ritmo del crecimiento moderado de la oferta laboral. Esto se refleja 
+en signos preocupantes, como la reciente tendencia de crecimiento negativo en el empleo fuera del
+sector salud, lo que indica una desaceleración en la creación de nuevos puestos de trabajo.
+
+2. **Impacto de las recesiones en la estructura laboral**: Las recesiones económicas suelen ser 
+utilizadas por las empresas para reestructurar y optimizar su fuerza laboral, eliminando empleos
+en áreas menos productivas. Esto genera una reducción en la demanda de mano de obra, afectando la 
+recuperación del mercado laboral incluso después de que la economía comienza a mejorar.
+
+3. **Automatización y uso de inteligencia artificial (IA)**: Las empresas están cada vez más
+enfocadas en utilizar IA para reducir costos laborales, lo que puede disminuir la necesidad de 
+empleos tradicionales y, en consecuencia, reducir la demanda de mano de obra. La 
+puede tener efectos duraderos, especialmente en trabajos de nivel medio, contribuyendo a la 
+polarización del mercado laboral.
+
+4. **Cambio en la composición del crecimiento económico**: La mayor parte del crecimiento 
+potencial del Producto Interno Bruto (PIB) en el futuro provendrá de avances en productividad, 
+impulsados por la tecnología y la IA, en lugar de un aumento significativo en la fuerza laboral.
+Esto significa que el crecimiento económico no necesariamente se traducirá en una mayor creación
+de empleos, limitando la demanda laboral.
+
+5. **Envejecimiento de la población y menor inmigración**: La oferta laboral crece solo 
+modestamente debido al envejecimiento de la población y a una menor inmigración, lo que limita 
+el crecimiento de la fuerza laboral y, por ende, reduce la demanda de empleo.    
+
+6. **Reestructuración post-productividad**: Después de periodos de auge en productividad, las 
+empresas tienden a reducir su fuerza laboral para mejorar la eficiencia, lo que puede generar 
+una recuperación del empleo más lenta o débil.
+
+En resumen, el debilitamiento del mercado laboral se debe a una combinación de factores 
+estructurales y cíclicos, incluyendo una demanda laboral que no crece lo suficiente, el impacto 
+de las recesiones, la automatización y la IA, cambios en la composición del crecimiento económico, 
+y el envejecimiento poblacional. Estos elementos contribuyen a un escenario en el que el mercado 
+laboral se encuentra más débil de lo que sería deseable para una recuperación sólida y sostenida.
+"
