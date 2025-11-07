@@ -125,11 +125,3 @@ if __name__ == "__main__":
     
     recall5 = recall_at_k(queries_evaluacion, index, chunks_df, k = 5)
     print(f"\nRecall@5: {recall5:.2f}")
-
-
-
-"""
-1. Se cargan los archivos .faiss y .parquet necesarios.
-2. Se crean varias consultas juntos con el documento esperado para cada una.
-3. Se hace la función recall_at_k que calcula el Recall@K para las consultas dadas.
-"""
